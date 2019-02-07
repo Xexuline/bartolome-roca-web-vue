@@ -121,8 +121,8 @@
 
     @media all and (max-width: 30em){
          a.container-home-button-enter{
-        display: block;
-        margin: 0.4em auto;
+            display: block;
+            margin: 0.4em auto;
         }
     }
 
