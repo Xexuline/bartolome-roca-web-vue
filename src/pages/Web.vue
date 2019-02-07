@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="capatoda">
     PROBANDO UNA VISTAs
   </div>
 </template>
@@ -10,8 +10,10 @@
   };
 </script>
 
-<style scoped>
-body {
-  background-color: yellow;
-}
+<style>
+  #capatoda {
+    width: 100%;
+    height: 100%;
+    background-color: red;
+  }
 </style>

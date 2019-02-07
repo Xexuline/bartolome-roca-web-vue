@@ -1,20 +1,20 @@
 <template>
     <div class="container-home">
-        <div class="container-banner">
-            <div class="capa-foto">
-                <img src="../assets/images/home/bartolome.jpg" alt="Bartolome Roca" class="image-responsive foto-bartolome">
+        <div class="container-home-author">
+            <div class="container-home-author-photo">
+            <img src="../assets/images/home/bartolome.jpg" alt="Bartolome Roca" class="image-responsive">
             </div>
-            <div class="capa-texto-bartolome">
-                <div class="texto-nombre">
-                    BARTOLOMÉ ROCA
-                </div>
-                <div class="texto-artista">
-                    Artísta plástico
-                </div>
+            <div class="container-home-author-text">
+            <div class="container-home-author-text-name">
+                BARTOLOMÉ ROCA
+            </div>
+            <div class="container-home-author-text-artist">
+                Artísta plástico
+            </div>
             </div>
         </div>
-        <div class="container-enter">
-            <a href="#" class="button-home">ENTRAR</a>
+        <div class="container-home-button">
+            <a href="#" class="container-home-button-enter">ENTRAR</a>
         </div>
     </div>
 </template>
@@ -30,74 +30,33 @@
         box-sizing: border-box;
     } 
 
-    .container-home {
-        width: 100%;
-        margin: 0;
-    }
-
-    html, body {
-        height: 100%;
+    body, html {
         margin: 0;
         padding: 0;
     }
 
-    body {
+    .container-home {
         display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
-        flex-direction: column;
+        height: 100vh;
     }
 
-    .image-responsive {
-        max-width: 100%;
-        height: auto;
-    }
-
-    .boton {
-        border: none;
-        color: white;
-        margin: 4px 2px;
-        padding: 16px 32px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 2.2vh;
-        font-family: Arial, Helvetica, sans-serif;
-        transition-duration: 0.4s;
-        cursor: pointer;
-        border-radius: 6px;
-    }
-
-    .boton-entrar {
+    .container-home-author {
         background-color: #5E5E5E;
-        color: white;
-        border: 2px solid #5E5E5E;
-    }
-
-    .boton-entrar:hover {
-        background-color: rgb(44, 42, 42);
-        color: white;
-    }
-
-    .foto-bartolome {
-        max-width: 100%;
-        height: auto;
-        transition: all 0.2s;
-    }
-
-    .container-banner {
-        display: flex;
-        background-color: #5E5E5E;
-        justify-content: center;
         width: 100%;
+        display: flex;
+        justify-content: center;
         height: auto;
+        margin: 10px;
     }
 
-    .capa-foto {
+    .container-home-author-photo {
         display: flex;
     }
 
-    .capa-texto-bartolome {
+    .container-home-author-text {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -107,7 +66,7 @@
         color: white;
     }
 
-    .texto-nombre {
+    .container-home-author-text-name {
         font-size: 5.2vw;
         font-family: Arial, Helvetica, sans-serif;
         font-weight: bold;
@@ -115,23 +74,24 @@
         transition: all 0.2s;
     }
 
-    .texto-artista {
+    .container-home-author-text-artist {
         font-size: 2vw;
         font-family: Arial, Helvetica, sans-serif;
         margin-left: 35px;
         transition: all 0.2s;
     }
 
-    .container-enter {
+    .container-home-button {
         display: flex;
         justify-content: center;
         width: 100%;
+        margin: 10px;
         font-size: 3vw;
         font-family: sans-serif;
         margin-top: 75px;
     }
 
-    a.button-home{
+    a.container-home-button-enter {
         display: inline-block;
         padding: 0.35em 1.2em;
         background-color: #5E5E5E;
@@ -140,7 +100,7 @@
         box-sizing: border-box;
         border: 2px solid #5E5E5E;
         text-decoration: none;
-        font-family: 'Roboto',sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-weight: 300;
         color: #fff;
         text-align: center;
@@ -148,20 +108,26 @@
         font-size: 0.8em;
     }
 
-        a.button-home:hover{
-            color:#000000;
-            background-color:#FFFFFF;
-        }
+    a.container-home-button-enter:hover {
+        color:#000000;
+        background-color:#FFFFFF;      
+    }
 
-    @media all and (max-width:30em){
-         a.button-home{
-            display: block;
-            margin: 0.4em auto;
+    /* IMAGES RESPONSIVE */
+    .image-responsive {
+        max-width: 100%;
+        height: auto;
+    }
+
+    @media all and (max-width: 30em){
+         a.container-home-button-enter{
+        display: block;
+        margin: 0.4em auto;
         }
     }
 
     @media screen and (max-width: 1020px) {
-        .container-banner {
+        .container-home-author {
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -169,65 +135,65 @@
             padding: 30px 0 30px 0;
         }
 
-        .capa-foto, .capa-texto-bartolome {
+        .container-home-author-photo, .container-home-author-text {
             display: flex;
             align-items: center;
             justify-content: center;
         }
 
-        .capa-foto {
+        .container-home-author-photo {
             margin-bottom: 25px;
         }
 
-        .texto-nombre {
+        .container-home-author-text-name {
             font-size: 7vw;
             text-align: center;
             margin: 0px;
         }
 
-        .texto-artista {
+        .container-home-author-text-artist {
             font-size: 3.3vw;
             margin: 0px;
         }
     }
 
     @media screen and (max-width: 800px) {
-        .capa-texto-bartolome {
+        .container-home-author-text {
             width: 100%;
         }
 
-        .container-enter {
+        .container-home-button {
             font-size: 5vw;
             margin-top: 15px;
         }
     }
 
     @media screen and (max-width: 675px) {
-        .texto-nombre {
+        .container-home-author-text-name {
             font-size: 8vw;
         }
 
-        .texto-artista {
+        .container-home-author-text-artist {
             font-size: 5vw;
         }
 
-        .container-enter {
+        .container-home-button {
             font-size: 7vw;
         }
     }
 
     @media screen and (max-width: 350px) {
-        .container-enter {
+        .container-home-button {
             margin-top: 5px;
             font-size: 12vw;
         }
     }
 
     @media screen and (max-width: 250px) {
-        .boton {
+        .container-home-button {
             font-size: 12vw;
             margin: 4px 2px;
             padding: 8px 16px;
         }
-    }
+    }  
 </style>
