@@ -1,11 +1,13 @@
 .section-title {
   width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 section {
   width: 100%;
-  height: auto;
   text-align: center;
+  max-height: 250px;
 }
 
 .image-section {
