@@ -1,4 +1,5 @@
 # Bartolomé Roca Web (Vue)
+Thanks @Xexuline for the help :D
 
 ## Project setup
 ```
