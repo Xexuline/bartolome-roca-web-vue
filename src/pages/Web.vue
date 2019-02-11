@@ -1,19 +1,20 @@
 <template>
-  <div id="capatoda">
-    PROBANDO UNA VISTAs
+  <div>
+    <navigation />
   </div>
 </template>
 
 <script>
+  import Navigation from '../components/Navigation.Vue';
+
   export default {
     name: "Web",
+    components: {
+      navigation: Navigation,
+    }
   };
 </script>
 
-<style>
-  #capatoda {
-    width: 100%;
-    height: 100%;
-    background-color: red;
-  }
+<style scoped>
+  @import "../assets/css/pages/web.css";
 </style>
