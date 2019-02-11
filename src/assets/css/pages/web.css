@@ -7,24 +7,37 @@ html, body {
   font-weight: 400;
 }
 
-body {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  margin: 0 0 0 0;
-  /* background-color: #eff1f4; */
-  background-color: #333333;
-}
-
 h1 {
   font-family: Rubik,Lato,"Lucida Grande","Lucida Sans Unicode",Tahoma,Sans-Serif;
   padding: 0px;
   font-size: 5vh;
-
   font-size: 56px;
   font-weight: 700;
 }
 
 h2 {
   font-size: 38px;
+}
+
+.container-root {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 0 0 0;
+  /* background-color: #eff1f4; */
+  background-color: #333333;
+  height: auto;
+}
+
+.container-web {
+  max-width: 1400px;
+  width: 80%;
+  padding: 0;
+}
+
+
+@media screen and (max-width: 1200px) {
+  .container-web {
+      width: 95%;
+  }
 }

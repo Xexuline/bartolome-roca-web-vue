@@ -26,5 +26,6 @@
 </script>
 
 <style scoped>
-    @import "../assets/css/pages/home.css";
+    /* ERROR AL IMPORTAR YA QUE ME PASA ESTILOS DE ENLACE A WEB.VUE */
+    /* @import "../assets/css/pages/home.css"; */
 </style>

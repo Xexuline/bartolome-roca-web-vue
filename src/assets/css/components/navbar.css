@@ -25,7 +25,6 @@ header {
 
 #logo-name {
   font-size: 20px;
-
 }
 
 #burger-shower, #burger-toggle {
@@ -54,10 +53,6 @@ ul {
   font-size: 20px;
   font-family: 'PT Sans', sans-serif;
   flex-direction: row;
-}
-
-li {
-
 }
 
 li a {
@@ -125,7 +120,7 @@ li a:hover {
   #logo-name {
       font-size: 20px;
       align-self: center;
-      padding: 0px 0 0 5px;
+      padding: 6px 0 0 5px;
   }
 
   #hamburger-toggle {
@@ -138,7 +133,6 @@ li a:hover {
       flex-direction: column;
       padding: 0px 0 20px 0;
       justify-content: center;
-      
   }
 
   li a {

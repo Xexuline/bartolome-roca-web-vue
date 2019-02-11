@@ -1,0 +1,31 @@
+.section-title {
+  width: 100%;
+}
+
+section {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.image-section {
+  width: 100%;
+  max-height: 250px;
+}
+
+.container-text-section {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.h2-article-title {
+  margin-top: 0;
+}
+
+@media screen and (max-width: 1200px) {
+  .container-web {
+      width: 95%;
+  }
+}

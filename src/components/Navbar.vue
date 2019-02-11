@@ -1,6 +1,6 @@
 <template>
   <header>
-    <div class="header-container" id="header-container">
+    <div class="header-container">
       <input type="checkbox" id="burger-shower" class="burger-shower">
       <div id="content-logo">
         <label for="burger-shower" id="burger-toggle">&#9776;</label>
@@ -21,7 +21,7 @@
 
 <script>
   export default {
-    name: 'navbar',
+    name: 'app-navbar',
     data() {
       return {
         navlinks: [
