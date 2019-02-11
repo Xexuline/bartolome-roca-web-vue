@@ -1,7 +1,5 @@
 <template>
-  <div>
     <app-navigation />
-  </div>
 </template>
 
 <script>
