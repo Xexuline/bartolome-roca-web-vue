@@ -1,16 +1,16 @@
 <template>
   <div>
-    <navigation />
+    <app-navigation />
   </div>
 </template>
 
 <script>
-  import Navigation from '../components/Navigation.Vue';
+  import Navbar from "../components/Navbar.vue";
 
   export default {
     name: "Web",
     components: {
-      navigation: Navigation,
+      'app-navigation': Navbar
     }
   };
 </script>
