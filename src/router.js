@@ -2,6 +2,7 @@ import Vue from "vue";
 import Router from "vue-router";
 import Home from "@/pages/Home.vue";
 import Web from "@/pages/Web.vue";
+import Curriculum from "@/pages/Curriculum.vue";
 
 Vue.use(Router);
 
@@ -17,6 +18,11 @@ export default new Router({
       path: "/web",
       name: "web",
       component: Web
+    },
+    {
+      path: "/curriculum",
+      name: "curriculum",
+      component: Curriculum
     }
   ]
 });

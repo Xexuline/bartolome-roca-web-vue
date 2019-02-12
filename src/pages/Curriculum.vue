@@ -2,8 +2,8 @@
   <div class="container-root">
     <app-navigation />
     <div class="container-web">
-      <app-section title="Inicio" image="wall" />
-      <app-text title="Web"></app-text>
+      <app-section title="Curriculum" image="wall" />
+      <app-text title="Curriculum"></app-text>
       <app-footer></app-footer>
     </div>
   </div>
@@ -16,7 +16,7 @@
   import Footer from "@/components/Footer.vue";
 
   export default {
-    name: "Web",
+    name: "Curriculum",
     components: {
       'app-navigation': Navbar,
       'app-section': Section,
@@ -27,6 +27,21 @@
 </script>
 
 <style>
-  @import "../assets/css/pages/web.css";
 
+</style>
+
+
+<template>
+  <div class="container-root">
+    <app-navigation />
+    <div class="container-web">
+      <app-section title="Inicio" image="wall" />
+      <app-text title="Bartolomé Roca título h2"></app-text>
+      <app-footer></app-footer>
+    </div>
+  </div>
+</template>
+
+<style>
+  @import "../assets/css/pages/web.css";
 </style>
