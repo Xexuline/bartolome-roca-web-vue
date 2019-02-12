@@ -1,14 +1,12 @@
 <template>
-  <article>
-    <div class="article-container">
-      <h2 class="h2-article-title">{{ title }}</h2>
-      <app-home-text></app-home-text>
-    </div>
-  </article>
+  <article-slot :title="title">
+    <app-home-text></app-home-text>
+  </article-slot>
 </template>
 
 <script>
 import WebIndex from "@/views/WebIndex.vue";
+import ArticleSlot from "@/components/slots/slotArticle.vue"
 
 export default {
   name: "app-text",
@@ -16,7 +14,8 @@ export default {
     title: String
   },
   components: {
-    "app-home-text": WebIndex
+    "app-home-text": WebIndex,
+    ArticleSlot,
   }
 };
 </script>
