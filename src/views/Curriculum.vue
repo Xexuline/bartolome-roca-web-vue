@@ -135,7 +135,10 @@
 Exposición para celebrar “50 AÑOS PINTANDO” en sala S. JUAN DE DIOS Museo Arqueológico de Orihuela.<br /><br />
 <strong>2010:</strong><br />
 - Exposición “ 13 PINTORES ESPAÑOLES SOBRE LA KALEVALA de FINLANDIA” En la Universidad de Granada y en varios museos de Finlandia.<br /><br />
-
+<strong>2014:</strong><br />
+- 2014 - Exposicion en el museo J.NOGUERA VALVERDE Callosa de Segura "Por amor a la Pintura(al Arte)" desde el Renacimiento a las Vanguardias.<br />
+<strong>2019:</strong><br />
+- 2019 - Nombrado Caballero de la Real Orden de San Anton en la Ciudad de Orihuela.<br><br>
       
 <strong>BIBLIOGRAFÍA:</strong><br />
 - Bartolomé Roca. Fallo de la IV Bienal de Pintura "Ciudad", Alcoy.19-1-73.<br />
@@ -166,12 +169,13 @@ Exposición para celebrar “50 AÑOS PINTANDO” en sala S. JUAN DE DIOS Museo 
 - El Museo de Almería prepara un montaje conceptual sobre la semana Santa. M. J. López Díaz. El País Almería.<br />
 - La Semana Santa a exposición en Almería. ABC.<br />
 - La más asombrosa puesta en escena de la Semana Santa. Elena Caballero. Diario de Andalucía.
-- ”PROFETA EN SU TIERRA” Juan José Sánchez LA VERDAD VEGA BAJA.<br />
+- "PROFETA EN SU TIERRA" Juan José Sánchez LA VERDAD VEGA BAJA.<br />
 - La Pasión apasionada, texto para catalogo exposición de Almería 2000.<br />
 - Textos para la exposición de la Pasión de Miguel Ángel Barbera.<br />
--2008 texto de Paco Zaragoza  para  la revista de Semana Santa de Callosa de Segura.<br />
+- 2008 texto de Paco Zaragoza  para  la revista de Semana Santa de Callosa de Segura.<br />
 - Texto presentación catalogo exposición de pintura Ayuntamiento de Callosa de Segura 2009.<br />
 - Edición de un libro sobre la obra pictórica de Bartolomé Roca y catalogo con motivo de la exposición "Miradas del sur" (Etelän Katseita) con la colaboración de varios profesores de las universidades de Granada y Finlandia, así como comentarios de investigación de varios alumnos de ambas universidades. Producido por: universidad de Granada y Jyväskylän Finlandia, Ayuntamiento y Taidemuseo de Jyväskylän, embajada española en Finlandia 2009. <br />
 - Varios artículos y criticas en periódicos y revistas de arte nacionales de Finlandia con motivo de la exposición "Miradas del sur" en el Taidemuseo Jyväskylän.<br />
+- 2012- exposiciónes itinerantes de 12 profesores universidad en museos de Finlandia con el tema "LA CALEVALA<br />
   </div>
 </template>

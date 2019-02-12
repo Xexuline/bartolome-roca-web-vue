@@ -11,14 +11,44 @@
 }
 
 .card-image {
-  height: auto;
-  max-height: 200px;
   max-width: 390px;
+  max-height: 200px;
 }
 
 .botonera {
   text-align: center;
   padding: 15px;
+}
+
+@media screen and (max-width: 985px) { 
+
+  #cards {
+    display: flex;
+    flex-wrap: column;
+  }
+
+  .card-image {
+    max-width: 790px;
+  }
+}
+
+@media screen and (max-width: 985px) { 
+  .card-image {
+    max-width: 790px;
+  }
+}
+
+@media screen and (max-width: 764px) { 
+
+  .card-image {
+    max-width: 500px;
+  }
+}
+
+@media screen and (max-width: 764px) { 
+  .card-image {
+    max-width: 400px;
+  }
 }
 
 @media screen and (max-width: 475px) { 
