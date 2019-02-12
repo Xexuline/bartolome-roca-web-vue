@@ -3,8 +3,8 @@ import Router from "vue-router";
 import Home from "@/pages/Home.vue";
 import Web from "@/pages/Web.vue";
 import Curriculum from "@/pages/Curriculum.vue";
-import Galeria from "@/pages/Galeria.vue";
-import Contacto from "@/pages/Contacto.vue";
+import Gallery from "@/pages/Gallery.vue";
+import Contact from "@/pages/Contact.vue";
 
 Vue.use(Router);
 
@@ -29,12 +29,12 @@ export default new Router({
     {
       path: "/galeria",
       name: "galeria",
-      component: Galeria
+      component: Gallery
     },
     {
       path: "/contacto",
       name: "contacto",
-      component: Contacto
+      component: Contact
     }
   ]
 });

@@ -3,7 +3,7 @@
     <app-navigation />
     <div class="container-web">
       <app-section title="Galería" image="wall" />
-      <app-text title="Galería"></app-text>
+      <app-text-gallery title="Galería"></app-text-gallery>
       <app-footer></app-footer>
     </div>
   </div>
@@ -12,20 +12,19 @@
 <script>
   import Navbar from "@/components/Navbar.vue";
   import Section from "@/components/Section.vue";
-  import Text from "@/components/Text.vue";
+  import TextGallery from "@/components/TextGallery.vue";
   import Footer from "@/components/Footer.vue";
 
   export default {
-    name: "Galería",
     components: {
       'app-navigation': Navbar,
       'app-section': Section,
-      'app-text': Text,
+      'app-text-gallery': TextGallery,
       'app-footer': Footer
     }
   };
 </script>
 
 <style>
-  @import "../assets/css/pages/galeria.css";
+  @import "../assets/css/components/gallery.css";
 </style>

@@ -1,0 +1,22 @@
+/* CARDS */
+#cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  flex: 0 1 calc(25% - 1em);
+  margin: 1rem .25em;
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+  max-width: 390px;
+}
+
+.botonera {
+  text-align: center;
+  padding: 15px;
+}
