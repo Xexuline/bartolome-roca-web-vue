@@ -10,22 +10,22 @@
 </template>
 
 <script>
-  import Navbar from "@/components/Navbar.vue";
-  import Section from "@/components/Section.vue";
-  import Text from "@/components/Text.vue";
-  import Footer from "@/components/Footer.vue";
+import Navbar from "@/components/Navbar.vue";
+import Section from "@/components/Section.vue";
+import Text from "@/components/Text.vue";
+import Footer from "@/components/Footer.vue";
 
-  export default {
-    name: "Curriculum",
-    components: {
-      'app-navigation': Navbar,
-      'app-section': Section,
-      'app-text': Text,
-      'app-footer': Footer
-    }
-  };
+export default {
+  name: "Curriculum",
+  components: {
+    "app-navigation": Navbar,
+    "app-section": Section,
+    "app-text": Text,
+    "app-footer": Footer
+  }
+};
 </script>
 
 <style>
-  @import "../assets/css/pages/curriculum.css";
+@import "../assets/css/pages/curriculum.css";
 </style>

@@ -8,20 +8,19 @@
 </template>
 
 <script>
-  import WebIndex from "@/views/WebIndex.vue";
+import WebIndex from "@/views/WebIndex.vue";
 
-  export default {
-    name: 'app-text',
-    props: {
-      title: String
-    },
-    components: {
-      "app-home-text": WebIndex
-    }
-    
+export default {
+  name: "app-text",
+  props: {
+    title: String
+  },
+  components: {
+    "app-home-text": WebIndex
   }
+};
 </script>
 
 <style>
-  @import "../assets/css/components/text.css"; 
+@import "../assets/css/components/text.css";
 </style>

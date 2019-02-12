@@ -11,12 +11,42 @@
 }
 
 .card-image {
-  width: 100%;
   height: auto;
+  max-height: 200px;
   max-width: 390px;
 }
 
 .botonera {
   text-align: center;
   padding: 15px;
+}
+
+@media screen and (max-width: 475px) { 
+  .card-image {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 475px) { 
+  .card-image {
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 310px) { 
+  .card-image {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 250px) { 
+  .card-image {
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 190px) { 
+  .card-image {
+    width: 100%;
+  }
 }

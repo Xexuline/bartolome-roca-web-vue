@@ -10,21 +10,21 @@
 </template>
 
 <script>
-  import Navbar from "@/components/Navbar.vue";
-  import Section from "@/components/Section.vue";
-  import TextGallery from "@/components/TextGallery.vue";
-  import Footer from "@/components/Footer.vue";
+import Navbar from "@/components/Navbar.vue";
+import Section from "@/components/Section.vue";
+import TextGallery from "@/components/TextGallery.vue";
+import Footer from "@/components/Footer.vue";
 
-  export default {
-    components: {
-      'app-navigation': Navbar,
-      'app-section': Section,
-      'app-text-gallery': TextGallery,
-      'app-footer': Footer
-    }
-  };
+export default {
+  components: {
+    "app-navigation": Navbar,
+    "app-section": Section,
+    "app-text-gallery": TextGallery,
+    "app-footer": Footer
+  }
+};
 </script>
 
 <style>
-  @import "../assets/css/components/gallery.css";
+@import "../assets/css/components/gallery.css";
 </style>
