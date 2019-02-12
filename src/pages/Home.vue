@@ -18,9 +18,7 @@
       </div>
     </div>
     <div class="container-home-button">
-      <router-link to="/web" class="container-home-button-enter"
-        >Entrar</router-link
-      >
+      <router-link to="/web" class="container-home-button-enter">Entrar</router-link>
     </div>
   </div>
 </template>

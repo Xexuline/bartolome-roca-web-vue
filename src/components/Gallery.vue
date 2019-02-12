@@ -7,7 +7,7 @@
       :title="card.cardtitle"
     >
       <h4>{{ card.title }}</h4>
-      <img :src="card.image" :alt="card.altimg" class="card-image" />
+      <img :src="require(`@/assets/images/sections/${card.image}.jpg`)" :alt="card.altimg" class="card-image" />
       <div class="botonera">
         <button>Texto</button>&nbsp;
         <button>Galería</button>
@@ -22,85 +22,53 @@ export default {
     return {
       cards: [
         {
-          cardtitle: "Título tarjeta",
-          title: "Título tarjeta",
-          image: "https://dummyimage.com/390x200/000/0011ff.jpg",
-          altimg: "Tarjeta 1",
+          cardtitle: "Abstracto",
+          title: "Abstracto",
+          image: "abstracto",
+          altimg: "Abstracto",
           buttontext: "text",
           buttongallery: "text"
         },
         {
-          cardtitle: "Título tarjeta",
-          title: "Título tarjeta",
-          image: "https://dummyimage.com/390x200/000/0011ff.jpg",
-          altimg: "Tarjeta 2",
+          cardtitle: "Actual",
+          title: "Actual",
+          image: "actual",
+          altimg: "Actual",
           buttontext: "text",
           buttongallery: "text"
         },
         {
-          cardtitle: "Título tarjeta",
-          title: "Título tarjeta",
-          image: "https://dummyimage.com/390x200/000/0011ff.jpg",
-          altimg: "Tarjeta 3",
+          cardtitle: "Exposiciones",
+          title: "Exposiciones",
+          image: "exposiciones",
+          altimg: "Exposiciones",
           buttontext: "text",
           buttongallery: "text"
         },
         {
-          cardtitle: "Título tarjeta",
-          title: "Título tarjeta",
-          image: "https://dummyimage.com/390x200/000/0011ff.jpg",
-          altimg: "Tarjeta 4",
+          cardtitle: "Figurativo",
+          title: "Figurativo",
+          image: "figurativo",
+          altimg: "Figurativo",
           buttontext: "text",
           buttongallery: "text"
         },
         {
-          cardtitle: "Título tarjeta",
-          title: "Título tarjeta",
-          image: "https://dummyimage.com/390x200/000/0011ff.jpg",
-          altimg: "Tarjeta 5",
+          cardtitle: "Pasión",
+          title: "Pasión",
+          image: "pasion",
+          altimg: "Pasión",
           buttontext: "text",
           buttongallery: "text"
         },
         {
-          cardtitle: "Título tarjeta",
-          title: "Título tarjeta",
-          image: "https://dummyimage.com/390x200/000/0011ff.jpg",
-          altimg: "Tarjeta 6",
+          cardtitle: "Restauración",
+          title: "Restauración",
+          image: "restauracion",
+          altimg: "Restauración",
           buttontext: "text",
           buttongallery: "text"
         },
-        {
-          cardtitle: "Título tarjeta",
-          title: "Título tarjeta",
-          image: "https://dummyimage.com/390x200/000/0011ff.jpg",
-          altimg: "Tarjeta 7",
-          buttontext: "text",
-          buttongallery: "text"
-        },
-        {
-          cardtitle: "Título tarjeta",
-          title: "Título tarjeta",
-          image: "https://dummyimage.com/390x200/000/0011ff.jpg",
-          altimg: "Tarjeta 8",
-          buttontext: "text",
-          buttongallery: "text"
-        },
-        {
-          cardtitle: "Título tarjeta",
-          title: "Título tarjeta",
-          image: "https://dummyimage.com/390x200/000/0011ff.jpg",
-          altimg: "Tarjeta 9",
-          buttontext: "text",
-          buttongallery: "text"
-        },
-        {
-          cardtitle: "Título tarjeta",
-          title: "Título tarjeta",
-          image: "https://dummyimage.com/390x200/000/0011ff.jpg",
-          altimg: "Tarjeta 10",
-          buttontext: "text",
-          buttongallery: "text"
-        }
       ]
     };
   }
