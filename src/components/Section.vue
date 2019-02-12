@@ -2,7 +2,7 @@
   <div class="section-title">
     <section>
       <img
-        :src="require('../assets/images/web/section/' + image + '.jpeg')"
+        :src="require('../assets/images/web/section/' + image + '.jpg')"
         class="image-section"
         alt="Inicio Imagen"
       />
