@@ -27,8 +27,8 @@
         navlinks: [
           { link: 'web', title: 'Inicio' },
           { link: 'curriculum', title: 'Curriculum' },
-          { link: '#galeria', title: 'Galería' },
-          { link: '#contacto', title: 'Contacto' },
+          { link: 'galeria', title: 'Galería' },
+          { link: 'contacto', title: 'Contacto' },
         ]
       }
     },

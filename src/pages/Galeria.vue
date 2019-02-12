@@ -2,8 +2,8 @@
   <div class="container-root">
     <app-navigation />
     <div class="container-web">
-      <app-section title="Inicio" image="wall" />
-      <app-text title="Web"></app-text>
+      <app-section title="Galería" image="wall" />
+      <app-text title="Galería"></app-text>
       <app-footer></app-footer>
     </div>
   </div>
@@ -16,7 +16,7 @@
   import Footer from "@/components/Footer.vue";
 
   export default {
-    name: "Web",
+    name: "Galería",
     components: {
       'app-navigation': Navbar,
       'app-section': Section,
@@ -27,5 +27,5 @@
 </script>
 
 <style>
-  @import "../assets/css/pages/web.css";
+  @import "../assets/css/pages/galeria.css";
 </style>

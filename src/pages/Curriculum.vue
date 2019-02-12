@@ -27,21 +27,5 @@
 </script>
 
 <style>
-
-</style>
-
-
-<template>
-  <div class="container-root">
-    <app-navigation />
-    <div class="container-web">
-      <app-section title="Inicio" image="wall" />
-      <app-text title="Bartolomé Roca título h2"></app-text>
-      <app-footer></app-footer>
-    </div>
-  </div>
-</template>
-
-<style>
-  @import "../assets/css/pages/web.css";
+  @import "../assets/css/pages/curriculum.css";
 </style>
