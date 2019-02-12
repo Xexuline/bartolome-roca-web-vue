@@ -17,7 +17,7 @@
 </template>
 
 <script>
-import Tcs from "../components/Gallery.vue";
+import Tcs from "../../components/Gallery.vue";
 
 export default {
   components: {
@@ -30,5 +30,5 @@ export default {
 </script>
 
 <style>
-@import "../assets/css/components/textgallery.css";
+@import "../../assets/css/components/textgallery.css";
 </style>

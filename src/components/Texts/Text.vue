@@ -22,5 +22,5 @@ export default {
 </script>
 
 <style>
-@import "../assets/css/components/text.css";
+@import "../../assets/css/components/text.css";
 </style>

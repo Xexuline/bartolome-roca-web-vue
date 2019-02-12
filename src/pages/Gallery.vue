@@ -12,7 +12,7 @@
 <script>
 import Navbar from "@/components/Navbar.vue";
 import Section from "@/components/Section.vue";
-import TextGallery from "@/components/TextGallery.vue";
+import TextGallery from "@/components/Texts/TextGallery.vue";
 import Footer from "@/components/Footer.vue";
 
 export default {
