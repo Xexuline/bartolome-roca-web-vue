@@ -2,7 +2,7 @@
   <div class="container-root">
     <app-navigation />
     <div class="container-web">
-      <app-section title="Curriculum" image="wall" />
+      <app-section title="Curriculum" image="curriculum" />
       <app-text title="Trayectoría"></app-text>
       <app-footer></app-footer>
     </div>
