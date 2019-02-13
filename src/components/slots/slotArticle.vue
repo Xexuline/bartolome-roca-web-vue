@@ -12,11 +12,9 @@ export default {
   name: "app-article-slot",
   props: {
     title: String
-  },
-}
+  }
+};
 </script>
 <style>
 @import "../../assets/css/components/text.css";
 </style>
-
-

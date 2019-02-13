@@ -7,7 +7,11 @@
       :title="card.cardtitle"
     >
       <h4>{{ card.title }}</h4>
-      <img :src="require(`@/assets/images/sections/${card.image}.jpg`)" :alt="card.altimg" class="card-image" />
+      <img
+        :src="require(`@/assets/images/sections/${card.image}.jpg`)"
+        :alt="card.altimg"
+        class="card-image"
+      />
       <div class="botonera">
         <button>Texto</button>&nbsp;
         <button>Galería</button>
@@ -68,7 +72,7 @@ export default {
           altimg: "Restauración",
           buttontext: "text",
           buttongallery: "text"
-        },
+        }
       ]
     };
   }

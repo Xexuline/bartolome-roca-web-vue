@@ -17,8 +17,10 @@
         </div>
       </div>
     </div>
-    <div class="container-home-button">
-      <router-link to="/web" class="container-home-button-enter">Entrar</router-link>
+    <div class="containpm ner-home-button">
+      <router-link to="/web" class="container-home-button-enter"
+        >Entrar</router-link
+      >
     </div>
   </div>
 </template>
@@ -31,5 +33,5 @@ export default {
 
 <style scoped>
 /* ERROR AL IMPORTAR YA QUE ME PASA ESTILOS DE ENLACE A WEB.VUE */
-/* @import "../assets/css/pages/home.css"; */
+@import "../assets/css/pages/home.css";
 </style>

@@ -6,7 +6,7 @@
 
 <script>
 import WebIndex from "@/views/WebIndex.vue";
-import ArticleSlot from "@/components/slots/slotArticle.vue"
+import ArticleSlot from "@/components/slots/slotArticle.vue";
 
 export default {
   name: "app-text",
@@ -15,7 +15,7 @@ export default {
   },
   components: {
     "app-home-text": WebIndex,
-    ArticleSlot,
+    ArticleSlot
   }
 };
 </script>
