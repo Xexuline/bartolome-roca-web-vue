@@ -13,7 +13,7 @@
             :key="navlink.title"
             :index="navlink.title"
           >
-            <a :href="navlink.link">{{ navlink.title }}</a>
+            <router-link :to="navlink.link"> {{ navlink.title }} </router-link>
           </li>
         </ul>
       </nav>
